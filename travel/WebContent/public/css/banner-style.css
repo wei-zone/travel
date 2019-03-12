@@ -1,0 +1,203 @@
+/*----------------------------------------------------------------------------- 
+
+/*******************************
+	-	BANNER BACKGROUNDS	-	
+********************************/
+
+#banner1-bg {
+	position: absolute;
+	height: 600px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-image:url(../images/website_bg_tile.gif);
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	font-family: Arial, Helvetica, sans-serif; 
+	color:#bbb;
+	font-weight: bold;
+}
+
+#banner1-bg h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:35px;
+	color:#bbb;
+	margin-bottom: 15px;
+}
+
+ 
+
+/*******************************
+	-	BANNER STYLES	-	
+********************************/
+#banner-example-1{
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+ 
+	height:300px;
+}	
+
+#banner-example-1 ul >li{
+	display:none;
+}
+
+
+ 
+ 
+/**********************************************************
+	-	CAPTION SETTINGS FOR THE PARADIGM SLIDER	-
+**********************************************************/	
+.caption_black{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:25px;
+	color:#fff;
+	background-color:#000;
+	padding:5px;
+	position:absolute;
+	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.caption_blue{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:25px;
+	color:#fff;
+	background-color:#00b4ff;
+	padding:5px;
+	position:absolute;
+	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.caption_green{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:25px;
+	color:#fff;
+	background-color:#445626;
+	padding:5px;
+	position:absolute;
+	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.caption_orange{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:25px;
+	color:#fff;
+	background-color:#c54a00;
+	padding:5px;
+	position:absolute;
+	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.caption_red{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:25px;
+	color:#fff;
+	background-color:#c4302b;
+	padding:5px;
+	position:absolute;
+	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.caption_white{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:25px;
+	color:#000;
+	background-color:#fff;
+	padding:5px;
+	position:absolute;
+	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.caption_grey{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:25px;
+	color:#fff;
+	background-color:#333;
+	padding:5px;
+	position:absolute;
+	-moz-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.75);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: #ddd;
+}
+
+.caption_white a:link, .caption_white a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+.caption_white a:hover {
+	text-decoration: none;
+	cursor: pointer;
+	color: #555;
+}
+
+a:focus { 
+    outline: none; 
+}
+
+.smallcap{
+	font-size:18px;
+}
+
+.largecap{
+	font-size:32px;
+}
+
+.imagecap{
+	position:absolute;
+}
+
+.nobg{
+	background: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	text-shadow: #000 5px 5px 5px;
+}
+
+/****************************
+	-	BASIC DIVIDERS 	-
+*****************************/
+#small_divider {
+	margin-top:8px;
+}
+
+ 

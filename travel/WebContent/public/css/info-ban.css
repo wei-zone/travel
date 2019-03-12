@@ -1,0 +1,83 @@
+/****************************
+*描述:jquery自适应焦点图轮播css
+*作者：方林
+*版本:v1.0.0(2014.10.27)
+*备注：所有的图片请务必保持统一尺寸
+*****************************/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, button,
+	p, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 320px;
+	background-color: #f6f7f7;
+}
+
+a, img {
+	border: 0;
+}
+
+.index_banner {
+	position: relative;
+}
+
+.index_banner ul {
+	overflow: hidden;
+}
+
+.index_banner li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+ 
+}
+
+.index_banner li a {
+	display: block;
+	margin: 0 auto;
+}
+
+.index_banner cite {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	z-index: 999;
+	display: block;
+	margin-left: -144px;
+	width: 288px;
+	height: 15px;
+	_display: none;
+}
+
+.index_banner cite span {
+	float: left;
+	display: block;
+	margin: 0 4px;
+	width: 40px;
+	height: 8px;
+	background-color: #e5e5e5;
+	text-indent: -999em;
+	opacity: .8;
+	cursor: pointer;
+}
+
+.index_banner cite span:hover {
+	background-color: #f5f5f5;
+}
+
+.index_banner cite span.cur {
+	background-color: #1d8bd8;
+	cursor: default;
+}
+
+.clear {
+	clear: both;
+}
+
+.infos {
+	margin-bottom: 45px;
+}

@@ -1,0 +1,503 @@
+header {
+	border-bottom: 3px solid gainsboro;
+}
+
+@media screen and ( min-width :991px) {
+	header {
+		margin-bottom: 0px;
+	}
+}
+
+
+@media screen and ( max-width :990px) {
+	header {
+		margin-bottom: 98px;
+	}
+}
+
+ 
+@media screen and ( max-width : 768px) {
+	header {
+		margin-bottom: 0px;
+	}
+}
+
+
+.banner {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.sea-hot {
+	margin-bottom: 30px;
+}
+
+#banner-img {
+	background: url(../../img/wrap_02.png);
+	background-size: cover;
+}
+
+/* 景点标题*/
+.scen {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.scen-img {
+	height: 200px;
+	transition: all .5s ease-in-out;
+}
+
+.scen-list {
+	margin-bottom: 20px;
+}
+
+.scen-img:hover {
+	transition: all .5s ease-in-out;
+	transform: scale(1.05);
+}
+
+.scen-title {
+	width: 260px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-weight: 500;
+	line-height: 1.1;
+	font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+	background: url(../../img/1px.png) repeat;
+	padding: 10px 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* 查看更多*/
+.more {
+	margin-top: 30px;
+}
+
+/* 周边景点*/
+.arround {
+	border-right: 1px solid gainsboro;
+}
+
+.arround-scen {
+	margin-top: 35px;
+}
+
+.arround-scen>li {
+	font-weight: bold;
+	list-style: none;
+	margin: 15px 5px;
+	text-align: center;
+	border-bottom: 1px solid gainsboro;
+}
+
+.welcome {
+	position: relative;
+	background: url(../../img/yuntaishan.png) center bottom no-repeat;
+	height: 300px;
+}
+
+.welcome-title {
+	position: absolute;
+	top: 100px;
+	left: auto;
+	right: auto;
+	font-family: KaiTi;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: 0;
+	color: #6f6f6f;
+}
+
+.more-site {
+	border-left: 1px solid gainsboro;
+}
+
+.sites {
+	margin-top: 30px;
+}
+
+.sites>a {
+	margin: 0px 25px;
+	text-align: center;
+	border-bottom: 1px solid gainsboro;
+}
+
+.sites>a>img {
+	margin-bottom: 20px;
+}
+
+/* 返回顶部*/
+.back-top {
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: fixed;
+	opacity: 0.5;
+	bottom: 80px;
+	right: 30px;
+	transition: all .5s ease-in-out;
+	;
+}
+
+.back-top:hover {
+	opacity: 1;
+	transition: all .3s ease-in-out;
+}
+
+.top-button {
+	display: block;
+	width: 40px;
+	height: 40px;
+	display: none;
+}
+
+.top-img {
+	width: 40px;
+	height: 40px;
+}
+
+/* -----魅力洛阳-----*/
+
+/* ------------------*/
+.introduce {
+	background: url(../../img/introduce.png) repeat center;
+	border-top: 3px solid gainsboro;
+	margin-top: 47px;
+}
+
+.intro-text {
+	margin: 30px 0px;
+	font-size: 15px;
+	line-height: 2em;
+	padding-left: 39px;
+	color: #666;
+	font-size: 12px;
+	font-family: "Microsoft YaHei", Helvetica, Arial, "PingFang SC",
+		"WenQuanYi Micro Hei", "tohoma,sans-serif";
+}
+
+.luoyang {
+	font-size: 22px;
+	font-weight: bold;
+	color: #bf1e0d;
+}
+
+.feature {
+	font-size: 15px;
+	line-height: 2em;
+	padding-top: 10px;
+	color: #666;
+	font-weight: bold;
+}
+
+.foods {
+	margin: 45px auto;
+}
+
+.foods>img {
+	height: 270px;
+	wdith: 100%;
+}
+
+/* 地图*/
+.map {
+	background: url(../../img/wzg7B42.png) center;
+	padding-bottom: 50px;
+}
+
+.map iframe {
+	
+}
+
+.video {
+	background: url(../../img/actCA12.png);
+	background-size: cover;
+}
+
+.video video {
+	display: block;
+	margin: 40px 16%;
+}
+
+/* 畅游*/
+.top-banner {
+	margin-top: 50px;
+	background: url(../../img/banA0D6.png) center;
+	background-size: cover;
+}
+
+.travel-scen {
+	background: url(../../img/wzg7B42.png) center;
+	background-size: cover;
+	padding-top: 30px;
+	margin-top: 40px;
+	padding-bottom: 60px;
+}
+
+.scen-list {
+	padding-top: 30px;
+}
+
+.scen-list img {
+	display: block;
+	max-width: 100%;
+	transition: all 0.5 ease-in-out;
+	margin-right: auto;
+	margin-left: auto;
+	vertical-align: middle;
+}
+
+.scen-list img:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: all 0.5 ease-in-out;
+}
+
+.travel {
+	display: block;
+	font-size: 14px;
+	padding: 0px 10px 1px 10px;
+}
+
+.travel-title {
+	display: block;
+	font-weight: 100;
+	font-size: 14px;
+	color: #9b9b9b;
+}
+
+.travel-level {
+	display: block;
+	font-weight: 100;
+	font-size: 14px;
+	color: #F7B732;
+	letter-spacing: 3.5px;
+}
+
+.travel-add {
+	height: 30px;
+	color: #3333;
+	font-weight: 100;
+	font-size: 11px;
+}
+
+#slide {
+	margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* ------------------------------------景区详情--------------------------------- */
+
+/* ---------------------------------------------------------------------------- */
+@media ( min-width : 768px) {
+	#scenimg {
+		margin-top: 15px;
+		width: 100%;
+		height: 330px;
+	}
+}
+
+@media ( max-width : 767px) {
+	#scenimg {
+		margin-top: 15px;
+		width: 100%;
+		height: 200px;
+	}
+}
+
+#scenimg:hover {
+	cursor: pointer;
+	transition: all 0.3 ease-in-out;
+	transform: scale(1.01);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* ------------------------------------资讯详情--------------------------------- */
+
+/* ---------------------------------------------------------------------------- */
+@media ( min-width : 768px) {
+	#infoimg {
+		margin-top: 5px;
+		margin-bottom: 30px;
+		width: 100%;
+		height: 330px;
+		margin-bottom: 30px;
+		width: 100%;
+		height: 330px;
+		transition: all 0.3 ease-in-out;
+	}
+}
+
+@media ( max-width : 767px) {
+	#infoimg {
+		margin-top: 5px;
+		margin-bottom: 30px;
+		width: 100%;
+		height: 200px;
+		width: 100%;
+		height: 200px;
+		transition: all 0.3 ease-in-out;
+	}
+}
+
+#infoimg:hover {
+	cursor: pointer;
+	transition: all 0.3 ease-in-out;
+	transform: scale(1.01);
+}
+
+.info-title {
+	margin-top: 20px;
+}
+
+.scen-name {
+	margin-top: 18px;
+}
+
+.scen-info {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#info-title, #info-date {
+	margin-left: 25px;
+}
+
+.scen-intro {
+	margin-top: 20px;
+}
+
+.intro-content {
+	font-size: 14px;
+	line-height: 24px;
+	overflow: hidden;
+	margin-bottom: 35px;
+	padding-right: 20px;
+	color: #343334;
+}
+
+.info_txt {
+	font-size: 14px;
+	line-height: 2em;
+	overflow: hidden;
+	color: #262626;
+	font-family: "Microsoft YaHei", Helvetica, Arial, "PingFang SC",
+		"WenQuanYi Micro Hei", "tohoma,sans-serif";
+}
+/*----------------------------------------------*/
+
+/* 资讯展示*/
+
+/*----------------------------------------------*/
+.info-ban {
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.info-show {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* ----------------------------------关于我们---------------------------------- */
+
+/* ---------------------------------------------------------------------------- */
+.about {
+	padding: 15px;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* ------------------------------------Footer---------------------------------- */
+
+/* ---------------------------------------------------------------------------- */
+/* 版权声明*/
+footer {
+	box-shadow: darkgray;
+	font-size: 12px;
+	line-height: 22px;
+	color: #fff;
+	background: url(../../img/bg-bottom.png) repeat;
+}
+
+.foot-logo {
+	transition: 0.3s ease-in-out;
+	margin-bottom: 20px;
+}
+
+.foot-logo:hover {
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+	transform: scale(1.11);
+}
+
+.wrap-footer {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.site-info, .contact {
+	margin-top: 30px;
+}
+
+.caption {
+	font-size: 14px;
+	float: left;
+	color: #636363;
+	transition: 0.1s ease-in-out;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
+.caption:hover {
+	color: #FFFFFF;
+	transition: 0.1s ease-in-out;
+}
+
+.code_box {
+	float: left;
+	width: 55px;
+	margin-left: 30px;
+	transition: 0.2s ease-in-out;
+}
+
+.code_box:hover {
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+	transform: scale(1.03);
+}
+
+#weixin-code, #weibo-code {
+	display: none;
+	margin-top: -150px;
+	margin-left: -100px;
+	width: 100px;
+	transition: 0.3s ease-in-out;
+}
+
+.code_box:hover #weixin-code {
+	cursor: pointer;
+	display: block;
+	width: 100px;
+	transition: 0.3s ease-in-out;
+}
+
+.code_box:hover #weibo-code {
+	cursor: pointer;
+	display: block;
+	width: 100px;
+	transition: 0.3s ease-in-out;
+}

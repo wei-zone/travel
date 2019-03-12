@@ -1,0 +1,76 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="css/H-ui.css"/>
+<link type="text/css" rel="stylesheet" href="css/H-ui.admin.css"/>
+<link type="text/css" rel="stylesheet" href="font/font-awesome.min.css"/>
+<title>我的桌面</title>
+</head>
+<body>
+<div class="pd-20" style="padding-top:20px;">
+  <p class="f-20 text-success">欢迎使用 洛阳旅游管理系统</p>
+  <p>当前时间：<font id="time"></font></p>
+  <table class="table table-border table-bordered table-bg mt-20">
+    <thead>
+      <tr>
+        <th colspan="2" scope="col">服务器信息</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th width="200">服务器计算机名</th>
+        <td><span id="lbServerName">http://127.0.0.1/</span></td>
+      </tr>
+      <tr>
+        <td>服务器IP地址</td>
+        <td>192.168.1.1</td>
+      </tr>
+      <tr>
+        <td>服务器域名</td>
+        <td>www.forguo.com</td>
+      </tr>
+      <tr>
+        <td>服务器端口 </td>
+        <td>8080</td>
+      </tr>
+      <tr>
+        <td>服务器Tomcat版本 </td>
+        <td>Tomcat v7.0</td>
+      </tr>
+      <tr>
+        <td>Jdk版本 </td>
+        <td>Jdk 1.7</td>
+      </tr>
+      <tr>
+        <td>服务器操作系统 </td>
+        <td>Microsoft Windows Server 2012</td>
+      </tr>
+      <tr>
+        <td>服务器的语言种类 </td>
+        <td>Chinese (People's Republic of China)</td>
+      </tr>
+ 
+    </tbody>
+  </table>
+</div>
+ 
+<script>
+    function clock() {
+        var nowTime = new Date();
+        var year = nowTime.getFullYear();
+        var month = nowTime.getMonth();
+        var day = nowTime.getDate();
+        var hour = nowTime.getHours();
+        var min = nowTime.getMinutes();
+        var sec = nowTime.getSeconds();
+
+        if (sec < 10) {
+            sec = "0" + sec;
+        }
+        document.getElementById("time").innerHTML = year + "年" + month + "月" + day + "日   " + hour + ":" + min + ":" +"<font color='red'>"+sec+"</font>";
+    }
+    setInterval(clock, 1000);
+</script>
+</body>
+</html>

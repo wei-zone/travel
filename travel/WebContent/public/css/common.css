@@ -1,0 +1,496 @@
+@charset 'utf-8';
+
+/* CSS Document */
+
+
+/************************ common *****************************/
+
+.wraper {
+    width: 100%;
+    min-width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: hidden;
+    padding-top: 97px;
+}
+
+.imgLoading {
+    background: url(../images/img_loading.gif) no-repeat center #fff;
+}
+
+.background-01 {
+    background: url(../images/souptopic/niuroumian_bg.png) repeat;
+}
+
+.p-t-0 {
+	padding-top: 0;
+}
+
+.ts {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.w-b {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.b-r-5 {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.b-r-10 {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.b-r-15 {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.b-r-20 {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.b-r-25 {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.b-r-all {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.sl-1:hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.sl-2:hover img {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.c-10 {
+    background: url(../img/cover_10.png);
+}
+
+.c-20 {
+    background: url(../img/cover_20.png);
+}
+
+.c-30 {
+    background: url(../img/cover_30.png);
+}
+
+.c-40 {
+    background: url(../img/cover_40.png);
+}
+
+.c-50 {
+    background: url(../img/cover_50.png);
+}
+
+.c-60 {
+    background: url(../img/cover_60.png);
+}
+
+.c-70 {
+    background: url(../img/cover_70.png);
+}
+
+.c-80 {
+    background: url(../img/cover_80.png);
+}
+
+.c-90 {
+    background: url(../img/cover_90.png);
+}
+
+
+/************************ header *****************************/
+
+
+
+/************************ footer *****************************/
+
+
+
+/************************ pageNum *****************************/
+
+.pageNum {
+    margin-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.pageNum .active,
+.pageNum .active:hover {
+    color: #fff;
+    background-color: #ff470e;
+    border-color: #ff470e;
+}
+
+.pageNum a {
+    font-size: 12px;
+    line-height: 26px;
+    display: inline-block;
+    zoom: 1;
+    height: 26px;
+    margin: 0 3px;
+    padding: 0 8px;
+    color: #898989;
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    *display: inline;
+}
+
+.pageNum a:hover {
+    color: #898989;
+    background-color: #eee;
+}
+
+.pageNum .count {
+    font-size: 12px;
+    line-height: 28px;
+    display: inline-block;
+    zoom: 1;
+    height: 28px;
+    margin-left: 5px;
+    color: #898989;
+    *display: inline;
+}
+
+
+/************************ 通用顶部图片滚动 *****************************/
+
+.common-scroll {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.common-scroll .bd li {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.common-scroll .bd li a {
+	display: block;
+	height: 200px;
+}
+
+.common-scroll .bd li img {
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    top: 0;
+    left: 50%;
+    margin-left: -720px;
+}
+
+.common-scroll .hd {
+    position: absolute;
+    right: 50%;
+    margin-right: -390px;
+    bottom: 20px;
+}
+
+.common-scroll .hd li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+    font-size: 0;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.common-scroll .hd .on {
+    background-color: #fff;
+}
+
+
+/************************ comment *****************************/
+
+.comment h1 {
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+.comment .partake {
+    float: right;
+    line-height: 36px;
+    font-size: 18px;
+    color: #9b9b9b;
+    margin-right: 470px;
+    font-weight: lighter;
+}
+
+.comment .partake em {
+    color: #f54343;
+    margin: 0 6px;
+    font-style: italic;
+}
+
+.comment .partake i {
+    margin: 0 6px;
+}
+
+.comment .comment-text {
+    width: 798px;
+    background: #ffffff;
+    border: 1px solid #FCC7C7;
+    height: 201px;
+    margin: 25px 0;
+}
+
+.comment .comment-text textarea {
+    font-size: 14px;
+    color: #9b9b9b;
+    height: 104px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    width: 758px;
+    display: block;
+    resize: none;
+}
+
+.comment .comment-btm {
+    width: 100%;
+    height: 55px;
+    border-top: 2px solid #F7BAA7;
+    background-color: #FDEDE8;
+}
+
+.comment .comment-btm input,
+.comment .comment-btm .comment-number {
+    float: left;
+    background: #ffffff;
+    border: 1px solid #FCC7C7;
+    border-radius: 3px;
+    width: 78px;
+    height: 34px;
+    padding: 0 10px;
+    line-height: 34px;
+    outline: none;
+    margin: 10px 0 10px 18px;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+.comment .comment-btm button {
+    float: right;
+    background-color: #F54343;
+    border-radius: 3px;
+    width: 100px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.comment .comment-btm button:hover {
+    background-color: #FF470E;
+}
+
+.comment .comment-show {
+    border-top: 2px solid #ddd9d4;
+    margin-top: 25px;
+}
+
+.comment .comment-show li {
+    border-bottom: 1px dashed #c4c3c3;
+    padding: 30px 0;
+}
+
+.comment .comment-show li img {
+    float: left;
+    height: 46px;
+    width: 46px;
+    margin-right: 12px;
+}
+
+.comment .comment-show li .show-id {
+    display: block;
+    font-size: 16px;
+    color: #ed5322;
+    overflow: hidden;
+}
+
+.comment .comment-show li .time {
+    display: block;
+    font-size: 12px;
+    color: #9b9b9b;
+    margin-top: 5px;
+    overflow: hidden;
+    padding-bottom: 6px;
+}
+
+.comment .comment-show li .time em {
+    margin-right: 12px;
+}
+
+.comment .comment-show li p {
+    font-size: 14px;
+    color: #808080;
+    margin-top: 20px;
+}
+
+.comment .more {
+    display: block;
+    width: 156px;
+    height: 32px;
+    background: url(../images/hd2.png) no-repeat;
+    margin: 30px auto 0 auto;
+}
+
+
+/*===================== 弹层 =======================*/
+
+.marsk {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/cover_70.png);
+    z-index: -9;
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.videoWrap {
+    width: 770px;
+    height: 500px;
+    background-color: #fff;
+    border: 5px solid #BBBBBB;
+    margin: 0 auto;
+}
+
+.videoWrap h3 {
+    font-size: 16px;
+    color: #333333;
+    margin: 25px 0 15px 30px;
+}
+
+.videoWrap .video {
+    width: 710px;
+    height: 400px;
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+.videoWrap #video {
+    margin: 0 auto;
+}
+
+.videoWrap p {
+    color: #666;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.videoWrap .close {
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    float: right;
+    color: #666;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/************************ crumbs *****************************/
+
+.crumbs {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.crumbs .content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.crumbs span {
+    font-size: 14px;
+    color: #ed5322;
+    display: none;
+}
+
+.crumbs a {
+    font-size: 14px;
+    color: #333;
+}
+
+.crumbs a:hover {
+    color: #ed5322;
+}
+
+.crumbs .current {
+    cursor: auto;
+}
+
+.crumbs .current:hover {
+    color: #333;
+}
+
+.crumbs em {
+    font-size: 14px;
+    color: #333;
+    margin: 0 3px;
+}
+
