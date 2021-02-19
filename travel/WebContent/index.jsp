@@ -13,6 +13,17 @@
 	<link rel="stylesheet" type="text/css" href="public/css/bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="public/css/bootstrap-theme.css"/>
 	<link rel="stylesheet" type="text/css" href="public/css/travel/index.css"/>
+	
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?e2b1313ceb93a9a3428404181b004fc1";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+
 </head>
 
 <body>
