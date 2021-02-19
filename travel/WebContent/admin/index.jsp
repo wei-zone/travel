@@ -14,6 +14,18 @@
 	<link href="css/H-ui.admin.css" rel="stylesheet" type="text/css" />
 	<link type="text/css" rel="stylesheet" href="font/font-awesome.min.css" />
 	<title>管理 - 洛阳旅游</title>
+	
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?e2b1313ceb93a9a3428404181b004fc1";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+
+	
 	</head>
 
 	<body style="overflow:hidden">
