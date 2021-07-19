@@ -95,8 +95,3 @@ github：https://github.com/forguos/travel
 ---
 
 **编码不易，感谢github留下您的star**
-
-
-感谢各位老板留下一抹☕️
-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020032800390393.png#pic_center)
