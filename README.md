@@ -5,9 +5,7 @@
 > 这是一个基于HTML5的旅游网站，论文、代码都很齐全。
 
 
-##### GIT地址：[https://github.com/forguos/travel](https://github.com/forguos/travel)
-
-##### 国内站点：[https://gitee.com/forguo/travel](https://gitee.com/forguo/travel)
+##### 国内站点：[https://gitee.com/wei-zone/travel](https://gitee.com/wei-zone/travel)
 
 ---
 
@@ -31,12 +29,6 @@
 
 2. 后台的数据管理
 
-
-前端展示：http://www.forguo.cn/travel/
-        http://127.0.0.1:8080/
-
-后台管理：http://www.forguo.cn/travel/admin/
-        http://127.0.0.1:8080/admin/
 
 #### 注：由于服务器到期演示地址已失效！
 
@@ -85,12 +77,9 @@ travel.war：是项目打包之后的war包，或者直接导入war包即可
 
 ###  github地址
 
-github：https://github.com/forguos/travel
+github：https://github.com/wei-zone/travel
 
 个人博客：https://blog.csdn.net/WEIGUO19951107
-
-个人站点：https://forguo.cn
-
 
 ---
 
